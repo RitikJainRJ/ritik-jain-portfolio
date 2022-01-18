@@ -8,15 +8,9 @@ import { ThemeContext } from "../../contexts/ThemeContext";
 import { headerData } from "../../data/headerData";
 import { socialsData } from "../../data/socialsData";
 
-import {
-  FaTwitter,
-  FaLinkedin,
-  FaGithub,
-  FaYoutube,
-  FaBlogger,
-} from "react-icons/fa";
-
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { BiCodeAlt, BiCodeBlock } from "react-icons/bi";
 
 function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
@@ -104,19 +98,32 @@ function Landing() {
                 />
               </a>
             )}
-            {/* {socialsData.geeksforgeeks && (
+            {socialsData.geeksforgeeks && (
               <a
                 href={socialsData.geeksforgeeks}
                 target="_blank"
                 rel="noreferrer"
               >
-                <SiLeetcode
+                <BiCodeAlt
                   className="landing--social"
                   style={{ color: theme.secondary }}
                   aria-label="GeeksForGeeks"
                 />
               </a>
-            )} */}
+            )}
+            {socialsData.interviewbit && (
+              <a
+                href={socialsData.interviewbit}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BiCodeBlock
+                  className="landing--social"
+                  style={{ color: theme.secondary }}
+                  aria-label="GeeksForGeeks"
+                />
+              </a>
+            )}
           </div>
         </div>
         <img
