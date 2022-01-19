@@ -1,88 +1,52 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
-
+import one from "../assets/svg/projects/one.svg";
+import two from "../assets/svg/projects/two.svg";
+import three from "../assets/svg/projects/three.svg";
+import four from "../assets/svg/projects/four.svg";
+import five from "../assets/svg/projects/five.svg";
+import six from "../assets/svg/projects/six.svg";
+import seven from "../assets/svg/projects/seven.svg";
+import eight from "../assets/svg/projects/eight.svg";
 
 export const projectsData = [
-    {
-        id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
-    },
-    {
-        id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
-    },
-    {
-        id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
-    },
-    {
-        id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
-    },
-    {
-        id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
-    },
-    {
-        id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: six
-    },
-    {
-        id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: seven
-    },
-    {
-        id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: eight
-    },
-]
-
+  {
+    id: 1,
+    projectName: "Blockchain Crowdfunding",
+    projectDesc:
+      "Aim of the project is to build a Crowdfunding application based on Ethereum. Achieved Enhanced security and More power to contributor in crowdfunding.",
+    tags: [
+      "Blockchain",
+      "Ethereum",
+      "React",
+      "Solidity",
+      "Remix",
+      "Ganache",
+      "Truffle",
+    ],
+    code: "https://github.com/RitikJainRJ/OurCamp",
+    demo: "https://kickstart.owanh.vercel.app/",
+    image: one,
+  },
+  {
+    id: 2,
+    projectName: "Web based Chat application",
+    projectDesc:
+      "Aim of the project is to build a full stack chat application. Achieved a real time chat application where people can send direct messages and create channels.",
+    tags: ["React", "Redux", "Semantic-UI", "Firebase", "Node"],
+    code: "https://github.com/RitikJainRJ/Coconut-chat",
+    demo: "https://chat-app-df397.web.app/login",
+    image: two,
+  },
+  {
+    id: 3,
+    projectName: "Sentiment Analysis of Slack",
+    projectDesc:
+      "Aim of the project is to do sentiment analysis of Slack channels messages. Achieved a web application in which we can enter custom text or Slack channel Id to get sentiment of it.",
+    tags: ["React", "Redux", "Bootstrap", "AWS", "Git"],
+    code: "",
+    demo: "",
+    image: three,
+  },
+];
 
 // Do not remove any fields.
 // Leave it blank instead as shown below

@@ -25,7 +25,6 @@ function ExperienceCard({
       "&:hover": {
         backgroundColor: theme.primary50,
       },
-      height: "5cm",
     },
   }));
 
