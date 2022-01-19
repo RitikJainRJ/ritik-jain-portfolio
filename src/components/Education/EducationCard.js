@@ -37,7 +37,7 @@ function EducationCard({ id, institution, course, startYear, endYear, score }) {
           </h6>
           <h4 style={{ color: theme.tertiary }}>{course}</h4>
           <h5 style={{ color: theme.tertiary80 }}>{institution}</h5>
-          <h5 style={{ color: theme.tertiary80 }}>Score - {score}</h5>
+          <h6 style={{ color: theme.tertiary80 }}>Score - {score}</h6>
         </div>
       </div>
     </Fade>
