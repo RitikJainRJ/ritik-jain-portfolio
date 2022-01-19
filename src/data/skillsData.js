@@ -1,5 +1,8 @@
 export const skillsData = [
+  "DataStructure",
+  "Algorithms",
   "React",
+  "SpringBoot",
   "AWS",
   "Javascript",
   "Java",
